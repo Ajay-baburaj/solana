@@ -1,0 +1,345 @@
+body{
+        margin: 0;
+        font-family: var(--bs-body-font-family);
+        font-size: var(--bs-body-font-size);
+        font-weight: var(--bs-body-font-weight);
+        line-height: var(--bs-body-line-height);
+        color: var(--bs-body-color);
+        text-align: var(--bs-body-text-align);
+        background-color: var(--bs-body-bg);
+        -webkit-text-size-adjust: 100%;
+        -webkit-tap-highlight-color: rgba(35,35,35,0);
+}
+*{
+   box-sizing: border-box;
+}
+
+main{
+   display: block;
+}
+
+.gradient-text{
+    font-family: "DSemi", monospace;
+    text-decoration: none;
+    color: #000;
+    font-size: 22px;
+    font-weight: 200;
+}
+.gradient-text:hover{
+    color: #fff;
+}
+
+.gradient-container{
+    padding: 5px;
+    background: linear-gradient(270deg,rgb(171,102,255)0%,rgb(20,241,149)101.39%);
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.nav-item a{
+    color: #fff;
+    font-size: 17.6px;
+    font-weight: 500;
+}
+
+.nav-item a:hover{
+    color: #b2e3d4;
+}
+
+.nav-item{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+ .navbar-nav{
+    margin-left: auto ;
+ }
+
+ .logo{
+    width: 150px;
+    height: 30px;
+    padding-left: 25px;
+ }
+
+ .navbar-toggler{
+    border: none !important;
+ }
+
+ .bars{
+    color: #fff;
+ }
+
+ .menu-bar{
+    position: sticky
+ }
+
+.heading-container h1{
+   font-size: clamp(3.5rem, 8vw, 6rem);
+   font-weight: 500;
+   line-height: 100%;
+   letter-spacing: -0.03rem;
+   word-wrap: break-word;
+   position: sticky;
+ }
+
+ .btn{
+   height: 50px;
+   width: 150px;
+   color: #000;
+   border-radius: 25px;
+   border: none;
+   background-color: #14f195;
+   font-size: 16px;
+   font-weight: 300;
+   font-family: Diatype, Helvetica, Arial, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Segoe UI", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+ }
+
+
+ .payment-section{
+    background-color: #14f195;
+ }
+
+ .sec-container{
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   width: 100%;
+   height: 100%;
+   pointer-events: none;
+   overflow: hidden;
+ }
+
+ .bg-black{
+   --bs-bg-opacity: 1;
+   /* height: 100vh; */
+ }
+
+ @media (min-width: 768px){
+   .py-md-12 {
+      padding-top: 8rem!important;
+      padding-bottom: 8rem!important;
+  }
+
+ }
+
+ .pt-14 {
+   padding-top: 12rem!important;
+}
+
+.pt-9 {
+   padding-top: 4rem!important;
+}
+
+.sec-container .videoplaceholder{
+   position: relative;
+   height: min(100vh, 100vw);
+}
+div{
+   display: block;
+}
+
+.sec-container .videoplaceholder_overlay{
+   position: absolute;
+   top: 0px;
+   width: 100%;
+   height: 100%;
+   background: linear-gradient(0deg, rgb(0, 0, 0) 12%, rgba(0, 0, 0, 0.75) 17%, rgba(0, 0, 0, 0.4) 23%, rgba(0, 0, 0, 0.28) 32%, rgba(0, 0, 0, 0.12) 52%, rgb(0, 0, 0) 100%);
+}
+@media (min-width: 1024px){
+   .fnTGAN .heroVideoPlaceholder video {
+      right: -7rem;
+  }
+}
+
+.container-one{
+   position: relative;
+   z-index: 1;
+}
+
+@media(min-width: 992px){
+   .mt-lg-8{
+      margin-top: 3rem !important;
+   }
+}
+
+.mb-10{
+   margin-bottom: 5rem;
+}
+
+.mt-12{
+   margin-top: 8rem !important;
+}
+
+@media(min-width: 1200px){
+   .container-one{
+      max-width: 1140px;
+   }
+}
+
+.heading {
+   font-size: clamp(3.8rem, 7vw, 6rem) !important;
+}
+
+.styled.btn {
+   font-family: "DSemi", monospace;
+   font-weight: normal;
+   text-transform: uppercase;
+   line-height: 1.25rem;
+   font-size: 0.95rem;
+   width: fit-content;
+   background-color: black;
+   border-radius: 1.5rem;
+   padding: 0.625rem 1.3125rem;
+   color: white;
+   border: 1px solid black;
+}
+
+.lift {
+   transition: box-shadow .25s ease,transform .25s ease;
+   transition-property: box-shadow, transform;
+   transition-duration: 0.25s, 0.25s;
+   transition-timing-function: ease, ease;
+   transition-delay: 0s, 0s;
+}
+
+.green{
+   background-color: #14f195 !important;
+   color: #fff !important;
+}
+
+.read-doc-btn{
+   border:solid 0.4px #fff !important ;
+   color: #fff !important;
+
+}
+
+.green .read-doc:hover{
+   background-color: #fff !important;
+}
+
+@media (min-width: 992px){
+   .sec-two{
+      display: grid;
+      grid-auto-flow: column;
+      grid-template: 1fr 1fr / 1fr 1fr;
+   
+   }
+
+}
+
+.sec-two{
+   position: relative;
+   width: 100%;
+   background: rgb(20,241,149);
+   color: rgb(19,19,19);
+   font-family: Dsemi, monospace;
+   padding: rem 0px;
+   z-index: 1;
+}
+
+@media(min-width:992px){
+   .sec-inside-con{
+      display: grid;
+      grid-auto-flow: column;
+      -webkit-box-align: center;
+      align-items: center;
+      -webkit-box-pack: justify;
+      justify-content: space-between;
+   }
+}
+
+ @media(min-width:768px){
+   .sec-inside-con{
+      justify-content: space-between;
+   }
+
+} 
+
+.sec-inside-con{
+   flex-direction: column; 
+   background: transparent;
+   padding: 1.5rem 0px;
+   margin: 0px 1rem ;
+   border-bottom: 1px solid rgb(19,19,19);
+}
+
+@media(min-width: 768px){
+   .content{
+      text-align: left;
+      width: 12ch;
+   }
+}
+
+.content {
+   font-size: clamp(0.75rem, 4vw, 1rem);
+   line-height: clamp(1rem, 4vw, 120%) ;
+}
+
+.content-two{
+   font-size: 2.25rem;
+   font-weight: bold;
+   line-height: 1;
+}
+.py-10{
+   padding-top: 5rem!important;
+    padding-bottom: 5rem!important;
+}
+
+.my-10{
+   margin-top: 5rem!important;
+   margin-bottom: 5rem!important;
+}
+
+.purple-btn {
+   font-family: DSemi, monospace;
+   font-weight: normal;
+   text-transform: uppercase;
+   line-height: 1.25rem;
+   font-size: 0.95rem;
+   width: fit-content;
+   background-color: rgb(153, 69, 255);
+   border-radius: 1.5rem;
+   padding: 0.625rem 1.3125rem;
+   color: white;
+   border: 1px solid black;
+}
+
+.purple-btn:hover{
+   background-color: #fff;
+   color: #000;
+}
+
+@media (min-width: 768px){
+   .py-md-10 {
+      padding-top: 5rem!important;
+      padding-bottom: 5rem!important;
+  }
+}
+
+.scale {
+   font-size: 4.5rem;
+   font-weight: bold;
+   line-height: 105%;
+   letter-spacing: -0.0425rem;
+}
+
+.card-temp{
+   position: relative;
+   border-radius: 1.5rem;
+   background-color: rgb(35, 35, 37) !important;
+   width: 300px;
+}
+
+.edited-h2{
+      font-size: clamp(2.625rem, 8vw, 4.5rem);
+      font-weight: bold;
+      line-height: 105%;
+      letter-spacing: -0.0425rem;
+}
+
+.edited-h3{
+   font-size: clamp(2.25rem, 6vw, 3.0rem);
+   font-weight: bold;
+   line-height: 105%;
+}

@@ -1,0 +1,180 @@
+.main-container{
+    background-color: #000;
+    height: 100vh;
+}
+
+h1,h2,h3,p,h6,h5,h4,span{
+
+    color: #fff;
+    font-family: "Diatype", Helvetica, Arial, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Segoe UI", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.sec-heading{
+    font-size: clamp(2.625rem, 8vw, 4.5rem) !important;
+    font-weight: bold !important;
+    line-height: 105%;
+    letter-spacing: -0.0425rem;
+
+}
+
+.third-sec{
+    background-color: #000;
+    height: 100vh;
+}
+
+.fifth-sec{
+    background-color: #000;
+}
+
+/* .fifth-sec-text-card{
+    position: absolute;
+    top: 135rem;
+} */
+
+.img-fluid{
+    position: relative;
+}
+
+.sixth-sec{
+    background-color: #000;
+}
+
+.g-0 {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}
+
+.mx-n2 {
+    margin-right: -0.5rem!important;
+    margin-left: -0.5rem!important;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1*var(--bs-gutter-y));
+}
+
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    margin-top: var(--bs-gutter-y);
+}
+
+div{
+    display: block;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+.card-prop {
+    position: relative;
+    color: rgb(0, 0, 0);
+    background: rgb(235, 84, 188);
+    border-radius: 1rem;
+    text-align: left;
+}
+
+.styled.btn {
+    font-family: DSemi, monospace;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 1.25rem;
+    font-size: 0.95rem;
+    width: fit-content;
+    background-color: black;
+    border-radius: 1.5rem;
+    padding: 0.625rem 1.3125rem;
+    color: white;
+    border: 1px solid black;
+}
+
+.lift {
+    transition: box-shadow .25s ease,transform .25s ease;
+    transition-property: box-shadow, transform;
+    transition-duration: 0.25s, 0.25s;
+    transition-timing-function: ease, ease;
+    transition-delay: 0s, 0s;
+}
+
+.card-prop-one {
+    position: relative;
+    color: rgb(0, 0, 0);
+    background-color: rgb(20, 241, 149);
+    border-radius: 1rem;
+}
+
+.mb-10 {
+    margin-bottom: 5rem!important;
+}
+
+.card-prop-two{
+    position: relative;
+    color: rgb(0, 0, 0);
+    background: rgb(128, 236, 255);
+    border-radius: 1rem;
+    height: 10rem;
+}
+
+.col-md-6 p{
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+  
+}
+
+
+@media (min-width: 768px){
+    .shading-sec {
+        height: 4rem;
+    }
+}
+
+.shading-sec {
+    position: absolute;
+    z-index: 1;
+    height: 2.5rem;
+    width: calc(100% - 0.5rem);
+    left: 0.25rem;
+    right: 0.25rem;
+    top: calc(100% - 0.5rem);
+    clip-path: polygon(0% 0%, 5% 100%, 95% 100%, 100% 0px);
+    background: linear-gradient(rgb(128, 236, 255) -5.71%, transparent 100%);
+}
+
+.break-line {
+    height: auto;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.footer-sec .footer-heading {
+    font-size: 2rem;
+    line-height: 120%;
+    font-weight: 700;
+    color: rgb(249, 249, 251);
+    text-align: center;
+}
+
+.footer-sec .footer-column {
+    font-family: DSemi, monospace;
+    font-size: 1rem;
+    color: rgb(183, 183, 183);
+}
+.footer-logo{
+    width: 50px;
+}
+
+
+.footer-shadow-sec {
+    position: relative;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    border-radius: 1rem;
+}
